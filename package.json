@@ -1,0 +1,10 @@
+{
+  "name": "attack-of-trump",
+  "version": "1.0.0",
+  "description": "Attack of Trump - retro shoot 'em up for mobile and desktop browsers, made with Phaser 4.",
+  "private": true,
+  "scripts": {
+    "start": "npx --yes http-server . -c-1 -p 8083 -o",
+    "deploy": "rm -rf .deploy && mkdir .deploy && cp -R index.html manifest.webmanifest .nojekyll css js lib assets .deploy/ && npx --yes gh-pages -d .deploy"
+  }
+}
