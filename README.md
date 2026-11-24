@@ -53,7 +53,7 @@ python3 -m http.server 8083
 ### Publicar en GitHub Pages
 
 ```bash
-npm run deploy   # copia los archivos web a .deploy/ y los publica en la rama gh-pages
+npm run deploy   # publica solo los archivos web en la rama gh-pages
 ```
 
 Después, en **Settings → Pages**, elige la rama `gh-pages` y la carpeta `/ (root)`.
